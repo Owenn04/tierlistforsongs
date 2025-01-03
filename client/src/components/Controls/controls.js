@@ -81,7 +81,6 @@ const Controls = ({ selectedRow, selectedBox, boxItems, onColorSelect, onTextSel
 
     return (
       <div className="control-container">
-        {/* Search Bar */}
         <div className="search-container">
             <input
                 type="text"

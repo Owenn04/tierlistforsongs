@@ -37,19 +37,19 @@
 
 
 .error-message {
-    color: #ff0000; /* Red color for the error message */
-    margin: 20px 0; /* Center the message with margin */
-    padding: 15px; /* Add padding for better spacing */
-    background-color: rgba(255, 0, 0, 0.1); /* Light red background for visibility */
-    border: 1px solid #ff0000; /* Red border for emphasis */
-    border-radius: 5px; /* Rounded corners for a softer look */
-    font-size: 18px; /* Increase font size */
-    font-weight: bold; /* Make the text bold */
-    text-align: center; /* Center the text */
-    width: 100%; /* Make the error message take full width */
-    max-width: 600px; /* Optionally set a max width */
-    min-width: 300px; /* Optionally set a minimum width */
-    word-wrap: break-word; /* Allow long words to break */
+    color: #ff0000; 
+    margin: 20px 0;
+    padding: 15px; 
+    background-color: rgba(255, 0, 0, 0.1); 
+    border: 1px solid #ff0000;
+    border-radius: 5px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 100%; 
+    max-width: 600px; 
+    min-width: 300px; 
+    word-wrap: break-word; 
 }
 
 

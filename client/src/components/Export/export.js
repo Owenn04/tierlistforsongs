@@ -1,7 +1,5 @@
 import { forwardRef, useImperativeHandle} from 'react';
 
-//got to figure out how this works and fix it
-
 const Export = forwardRef(({ boxItems }, ref) => {
     const generateTierlistImage = () => {
         const canvas = document.createElement('canvas');

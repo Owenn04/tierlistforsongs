@@ -72,8 +72,7 @@ const Home = () => {
     const handleCellRowRemoval = (rowIndex, boxIndex) => {
         setBoxItems(prevItems => {
             const updatedItems = [...prevItems];
-    
-            // Remove the selected box from the row
+
             if (boxIndex === 0) {
                 updatedItems.splice(rowIndex, 1);
             } else {
@@ -83,9 +82,8 @@ const Home = () => {
                 }
             }
     
-            // Adjust selectedBox if needed to avoid out-of-bound error
             if (updatedItems[rowIndex] && updatedItems[rowIndex].length <= selectedBox) {
-                setSelectedBox(updatedItems[rowIndex].length - 1);  // Set to last box if current selectedBox is out of bounds
+                setSelectedBox(updatedItems[rowIndex].length - 1); 
             }
     
             return updatedItems;

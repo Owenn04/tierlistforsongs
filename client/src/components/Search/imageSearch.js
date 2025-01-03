@@ -24,10 +24,9 @@ const ImageSearch = ({ query, numResults  }) => {
         }
     }, [query, numResults]);
 
-    // Drag setup for each image result
     const [{ isDragging }, drag] = useDrag(() => ({
-        type: 'image',  // Can be anything, 'image' here for identification
-        item: (monitor) => ({ url: monitor.url, description: monitor.description }), // You can send custom data
+        type: 'image',  
+        item: (monitor) => ({ url: monitor.url, description: monitor.description }), 
         collect: (monitor) => ({
         isDragging: monitor.isDragging(),
         }),
